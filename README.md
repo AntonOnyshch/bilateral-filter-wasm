@@ -11,6 +11,7 @@
 
 <img width="1382" alt="Знімок екрана 2023-03-27 о 19 49 27" src="https://user-images.githubusercontent.com/58116769/228026043-84f2bcbb-e4e3-451b-9ab2-6a32c24645ae.png">
 
+My machine: MacBook m1 7gpu, 8gb ram
 
 # Description
 
