@@ -1,0 +1,18 @@
+{
+  "name": "bilateral-filter-wasm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    
+  },
+  "scripts": {
+    "build": "./wat2wasm ./src/bilateral-filter.wat -o ./bin/bilateral-filter.wasm | ./bin/binaryen/bin/wasm-opt -O3 ./bin/bilateral-filter.wasm -o ./bin/bilateral-filter.wasm",
+    "build-fast": "./wat2wasm ./src/bilateral-filter-fast.wat -o ./bin/bilateral-filter-fast.wasm",
+    "test": "http-server ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
