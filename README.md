@@ -13,7 +13,7 @@
 
 # Description
 
-`Rust version of the filter has size ~17KB. The same version on WASM has size ~750B.`
+`Rust to WASM version of the filter has size ~17KB. The same version on WASM has size ~750B.`
 
 This repo contains *two* versions of *.wasm.
 First is regular filter with size ~750B
