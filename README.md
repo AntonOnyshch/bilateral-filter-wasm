@@ -18,6 +18,8 @@
 
 `Kernel size = sigma spatial * 1.95`
 
+Separate kernel filter can be run with max kernel size 13.
+
 This repo contains *two* versions of *.wasm.
 First is regular filter with size ~750B.
 Second one uses unrolled loop/separate kernels with size ~26KB and it is much faster
