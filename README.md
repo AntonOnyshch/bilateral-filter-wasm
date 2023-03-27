@@ -9,6 +9,7 @@
 
 ## Regular and separate kernel speed test on filter size = 13
 
+<img width="1382" alt="Знімок екрана 2023-03-27 о 19 49 27" src="https://user-images.githubusercontent.com/58116769/228026043-84f2bcbb-e4e3-451b-9ab2-6a32c24645ae.png">
 
 
 # Description
@@ -16,7 +17,7 @@
 `Rust to WASM version of the filter has size ~17KB. The same version on WASM has size ~750B.`
 
 This repo contains *two* versions of *.wasm.
-First is regular filter with size ~750B
+First is regular filter with size ~750B.
 Second one uses unrolled loop/separate kernels with size ~26KB and it is much faster
 
 I should note that separate kernel filter was not optimized with wasm-opt -O3. Test shown that optimized version is much slower than one which not.
