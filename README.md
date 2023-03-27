@@ -16,6 +16,8 @@
 
 `Rust to WASM version of the filter has size ~17KB. The same version on WASM has size ~750B.`
 
+`Kernel size = sigma spatial * 1.95`
+
 This repo contains *two* versions of *.wasm.
 First is regular filter with size ~750B.
 Second one uses unrolled loop/separate kernels with size ~26KB and it is much faster
