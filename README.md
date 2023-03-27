@@ -7,7 +7,13 @@
 
 <img width="1038" alt="bilateral-filter-example" src="https://user-images.githubusercontent.com/58116769/223050159-4e3decf6-c1f4-4dd7-be90-b9db2428082f.png">
 
+## Regular and separate kernel speed test on filter size = 13
+
+
+
 # Description
+
+`Rust version of the filter has size ~17KB. The same version on WASM has size ~750B.`
 
 This repo contains *two* versions of *.wasm.
 First is regular filter with size ~750B
