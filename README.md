@@ -20,7 +20,7 @@ This repo contains *two* versions of *.wasm.
 First is regular filter with size ~750B.
 Second one uses unrolled loop/separate kernels with size ~26KB and it is much faster
 
-I should note that separate kernel filter was not optimized with wasm-opt -O3. Test shown that optimized version is much slower than one which not.
+I should note that **separate kernel** filter was **not** optimized with wasm-opt -O3. Test has shown that optimized version is much slower than one which not.
 
 [Bilateral filter written with rust is here](https://github.com/AntonOnyshch/bilateral-filter-rust).
 [Bilateral filter written with typescript is here](https://github.com/AntonOnyshch/bilateral-filter).
